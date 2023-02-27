@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## link for this app
+https://weather-web-aleem.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
