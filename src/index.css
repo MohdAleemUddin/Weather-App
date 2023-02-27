@@ -1,12 +1,18 @@
+
+body{
+margin:0;
+}
 .App{
     text-align: center;
     padding: 2rem;
 }
 .container {
-    background-image: linear-gradient(to top right,rgb(91, 212, 212),rgb(226, 223, 223));
+    background-image: linear-gradient(to top right,rgb(91, 212, 212),rgb(201, 199, 199));
     border: 2px solid white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:40px auto;
+    max-width:400px
 }
 input{
     border: solid 3px rgb(255, 255, 255);
@@ -30,8 +36,6 @@ input{
     color: white;
 }
 .body{
-    justify-content: center;
-    text-align: center;
     margin: 2rem;
 }
 .temp{
@@ -40,7 +44,8 @@ input{
 
 .bottom{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
+    justify-content: space-around;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
@@ -48,7 +53,7 @@ input{
     margin: 2rem;
 }
 .myName{
-    margin-top: 50px;
+    margin:40px auto;
     font-size: 20px;
     color: rgb(69, 197, 197) ;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);

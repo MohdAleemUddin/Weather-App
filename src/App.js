@@ -31,10 +31,10 @@ function App() {
             <i><h1> {data.name} </h1></i>
           </div>
           <div className="temp">
-            {data.main ? <h1>{data.main.temp}°F</h1> : null}
+          {data.main ? <h1> {data.main.temp} °F</h1> : null}
           </div>
           <div className="cloud">
-            {data.weather? <strong><p>{data.weather[0].description}</p></strong>: null}
+            {data.weather ? <strong><p>{data.weather[0].description}</p></strong> : null}
           </div>
         </div>
         <div className="bottom">
@@ -52,7 +52,7 @@ function App() {
           </div>
         </div>
       </div>
-    <p className="myName">Mohd Aleem  &nbsp;: )</p>
+      <p className="myName">Mohd Aleem  &nbsp;: )</p>
     </div>
   );
 }
