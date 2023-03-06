@@ -16,13 +16,16 @@ function App() {
     }
   }
 
+ let cityname = (event)=>{
+  setCity(event.target.value)
+  }
 
   return (
     <div className="App">
       <div className="container">
         <div className="searchBar">
           <input type="text" value={city}
-            onChange={event => setCity(event.target.value)}
+            onChange={cityname}
             onKeyPress={searchCity}
             placeholder='Enter City' />
         </div>
